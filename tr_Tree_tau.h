@@ -1,0 +1,93 @@
+  float mjj_JESDown,mjj_JESUp,jdeta_JESDown,jdeta_JESUp,metphi_JESDown,metphi_JESUp,met_JESDown,met_JESUp,metphi_UESDown,metphi_UESUp,met_UESDown,met_UESUp,amcatNLO_weight,genM,genpT,pt_top1,pt_top2,filterIsoMu24,filterIsoTkMu24,numGenJets,filterIsoMu22,filterIsoTkMu22,genDR_2,metcov00,metcov01,metcov11;
+  float Flag_BadChargedCandidateFilter, Flag_BadPFMuonFilter, Flag_EcalDeadCellTriggerPrimitiveFilter, Flag_HBHENoiseFilter, Flag_HBHENoiseIsoFilter, Flag_badCloneMuon, Flag_badGlobalMuon, Flag_eeBadScFilter, Flag_goodVertices, Flag_globalSuperTightHalo2016Filter, Flag_badMuons, Flag_duplicateMuons, Flag_ecalBadCalibFilter, Flag_ecalBadCalibReducedMINIAODFilter;
+  float bweight, prefiring_weight;
+  float passMu22eta2p1,passTkMu22eta2p1,matchMu22eta2p1_2,matchTkMu22eta2p1_2,matchMu22eta2p1_1,matchTkMu22eta2p1_1,filterMu22eta2p1_2,filterTkMu22eta2p1_2,filterMu22eta2p1_1,filterTkMu22eta2p1_1,passMu24,matchMu24_2,filterMu24_2,matchMu24_1,filterMu24_1,passMu27,matchMu27_2,filterMu27_2,matchMu27_1,filterMu27_1;
+float deepVVVLooseVSjet_3,deepVVLooseVSjet_3,deepVLooseVSjet_3,deepLooseVSjet_3,deepMediumVSjet_3,deepTightVSjet_3,deepVTightVSjet_3;
+float deepVVVLooseVSe_3,deepVVLooseVSe_3,deepVLooseVSe_3,deepLooseVSe_3,deepMediumVSe_3,deepTightVSe_3,deepVTightVSe_3;
+float deepVVVLooseVSmu_3,deepVVLooseVSmu_3,deepVLooseVSmu_3,deepLooseVSmu_3,deepMediumVSmu_3,deepTightVSmu_3,deepVTightVSmu_3;
+  float iso_2;
+  float genweight;
+  float m_sv_JESUp, m_sv_JESDown, m_sv_UESUp, m_sv_UESDown, pt_sv_JESUp, pt_sv_JESDown, pt_sv_UESUp, pt_sv_UESDown;
+  float id_m_medium_2, id_m_medium2016_2,id_m_medium_1, id_m_medium2016_1;
+float byVLooseIsolationRerunMVArun2v1DBoldDMwLT_2, byVTightIsolationRerunMVArun2v1DBoldDMwLT_2, byLooseIsolationRerunMVArun2v1DBoldDMwLT_2, byMediumIsolationRerunMVArun2v1DBoldDMwLT_2, byTightIsolationRerunMVArun2v1DBoldDMwLT_2, byVVTightIsolationRerunMVArun2v1DBoldDMwLT_2,byIsolationRerunMVA3oldDMwLTraw_2;
+  int njets_JESDown,njets_JESUp;
+  float photonIso_2, puIso_2, chargedIso_2, neutralIso_2,metcor,metcorphi;
+  float byCombinedIsolationDeltaBetaCorrRaw3Hits_2, byIsolationMVA3oldDMwLTraw_2;
+  float pt_1,pt_2,px_1,px_2,py_1,py_2,pz_1,pz_2,eta_1,eta_2,phi_1,phi_2,iso_1,e_1,e_2,m_1,m_2,m_sv,m_pfsv,mvamet,mvametphi,m_sv_UP, m_sv_DOWN, m_pfsv_UP, m_pfsv_DOWN, pt_sv, pt_sv_UP, pt_sv_DOWN; 
+  float pt_3,px_3,iso_3,eta_3,phi_3,py_3,pz_3,m_3,e_3;
+  int gen_match_1, gen_match_2, gen_match_3;
+  //float pu_weight, trg_weight, amcatNLO_weight;
+  //bool dilepton_veto, extraelec_veto, extramuon_veto;
+  bool isZmt;
+  int nbtag,nbtagL,nbtagT,nbtag15,nbtag15L,nbtag15T;
+  float bptL_1,betaL_1,bphiL_1,bptL_2,betaL_2,bphiL_2;
+  float bptT_1,betaT_1,bphiT_1,bptT_2,betaT_2,bphiT_2;
+  float bpt_1,beta_1,bphi_1,bpt_2,beta_2,bphi_2,bflavor_1,bflavor_2,bflavorL_1,bflavorL_2;
+  float gentau_vispt;
+  int run, lumi, evt;
+  int nup,njets;
+  float npv, pt_tt,mt_2,jpt_1,jdeta,mjj,jpt_2;
+  float q_1,q_2,q_3;
+  float met, metphi, met_px, met_py;
+  float tau_HPSisoVTightMVAold, tau_HPSisoLooseMVAold, tau_HPSisoMediumMVAold, tau_HPSisoTightMVAold;
+  float tau_HPSisoVTightMVAnew, tau_HPSisoLooseMVAnew, tau_HPSisoMediumMVAnew, tau_HPSisoTightMVAnew;
+  float tau_HPSisoVTightMVAolddR03, tau_HPSisoLooseMVAolddR03, tau_HPSisoMediumMVAolddR03, tau_HPSisoTightMVAolddR03;
+  float byLooseCombinedIsolationDeltaBetaCorr3Hits_2,byMediumCombinedIsolationDeltaBetaCorr3Hits_2,byTightCombinedIsolationDeltaBetaCorr3Hits_2,byLooseCombinedIsolationDeltaBetaCorr3HitsdR03_2,byMediumCombinedIsolationDeltaBetaCorr3HitsdR03_2,byTightCombinedIsolationDeltaBetaCorr3HitsdR03_2;
+  float byVLooseIsolationMVArun2v1DBdR03oldDMwLT_2,byVLooseIsolationMVArun2v1DBoldDMwLT_2,byVLooseIsolationMVArun2v1DBnewDMwLT_2;
+  float byMediumIsolationMVArun2v1DBdR03oldDMwLT_2,byMediumIsolationMVArun2v1DBoldDMwLT_2,byMediumIsolationMVArun2v1DBnewDMwLT_2;
+  float byLooseIsolationMVArun2v1DBdR03oldDMwLT_2,byLooseIsolationMVArun2v1DBoldDMwLT_2,byLooseIsolationMVArun2v1DBnewDMwLT_2;
+  float byTightIsolationMVArun2v1DBdR03oldDMwLT_2,byTightIsolationMVArun2v1DBoldDMwLT_2,byTightIsolationMVArun2v1DBnewDMwLT_2;
+  float byVTightIsolationMVArun2v1DBdR03oldDMwLT_2,byVTightIsolationMVArun2v1DBoldDMwLT_2,byVTightIsolationMVArun2v1DBnewDMwLT_2;
+  float byLooseCombinedIsolationDeltaBetaCorr3Hits_3,byMediumCombinedIsolationDeltaBetaCorr3Hits_3,byTightCombinedIsolationDeltaBetaCorr3Hits_3,byLooseCombinedIsolationDeltaBetaCorr3HitsdR03_3,byMediumCombinedIsolationDeltaBetaCorr3HitsdR03_3,byTightCombinedIsolationDeltaBetaCorr3HitsdR03_3;
+  float byVLooseIsolationMVArun2v1DBdR03oldDMwLT_3,byVLooseIsolationMVArun2v1DBoldDMwLT_3,byVLooseIsolationMVArun2v1DBnewDMwLT_3;
+  float byMediumIsolationMVArun2v1DBdR03oldDMwLT_3,byMediumIsolationMVArun2v1DBoldDMwLT_3,byMediumIsolationMVArun2v1DBnewDMwLT_3;
+  float byLooseIsolationMVArun2v1DBdR03oldDMwLT_3,byLooseIsolationMVArun2v1DBoldDMwLT_3,byLooseIsolationMVArun2v1DBnewDMwLT_3;
+  float byTightIsolationMVArun2v1DBdR03oldDMwLT_3,byTightIsolationMVArun2v1DBoldDMwLT_3,byTightIsolationMVArun2v1DBnewDMwLT_3;
+  float byVTightIsolationMVArun2v1DBdR03oldDMwLT_3,byVTightIsolationMVArun2v1DBoldDMwLT_3,byVTightIsolationMVArun2v1DBnewDMwLT_3;
+  float againstElectronVLooseMVA6_2,againstElectronLooseMVA6_2,againstElectronMediumMVA6_2,againstElectronTightMVA6_2,againstElectronVTightMVA6_2;
+  float againstMuonLoose3_2,againstMuonTight3_2;
+  float againstElectronVLooseMVA6_3,againstElectronLooseMVA6_3,againstElectronMediumMVA6_3,againstElectronTightMVA6_3,againstElectronVTightMVA6_3;
+  float againstMuonLoose3_3,againstMuonTight3_3;
+  int numChargedIsoCone_2, numChargedSignalCone_2;
+  float l2_decayMode,l3_decayMode;
+  float trackpt_2,m_vis;
+  int tau_id;
+  float decayModeFindingNewDMs_2,decayModeFinding_2;
+  float puweight;
+  float npu;
+  int NUP;
+int njets_JetAbsoluteFlavMapDown,njets_JetAbsoluteMPFBiasDown,njets_JetAbsoluteScaleDown,njets_JetAbsoluteStatDown,njets_JetEnDown,njets_JetFlavorQCDDown,njets_JetFragmentationDown,njets_JetPileUpDataMCDown,njets_JetPileUpPtBBDown,njets_JetPileUpPtEC1Down,njets_JetPileUpPtEC2Down,njets_JetPileUpPtHFDown,njets_JetPileUpPtRefDown,njets_JetRelativeBalDown,njets_JetRelativeFSRDown,njets_JetRelativeJEREC1Down,njets_JetRelativeJEREC2Down,njets_JetRelativeJERHFDown,njets_JetRelativePtBBDown,njets_JetRelativePtEC1Down,njets_JetRelativePtEC2Down,njets_JetRelativePtHFDown,njets_JetRelativeStatECDown,njets_JetRelativeStatFSRDown,njets_JetRelativeStatHFDown,njets_JetSinglePionECALDown,njets_JetSinglePionHCALDown,njets_JetTimePtEtaDown;
+int njets_JetAbsoluteFlavMapUp,njets_JetAbsoluteMPFBiasUp,njets_JetAbsoluteScaleUp,njets_JetAbsoluteStatUp,njets_JetEnUp,njets_JetFlavorQCDUp,njets_JetFragmentationUp,njets_JetPileUpDataMCUp,njets_JetPileUpPtBBUp,njets_JetPileUpPtEC1Up,njets_JetPileUpPtEC2Up,njets_JetPileUpPtHFUp,njets_JetPileUpPtRefUp,njets_JetRelativeBalUp,njets_JetRelativeFSRUp,njets_JetRelativeJEREC1Up,njets_JetRelativeJEREC2Up,njets_JetRelativeJERHFUp,njets_JetRelativePtBBUp,njets_JetRelativePtEC1Up,njets_JetRelativePtEC2Up,njets_JetRelativePtHFUp,njets_JetRelativeStatECUp,njets_JetRelativeStatFSRUp,njets_JetRelativeStatHFUp,njets_JetSinglePionECALUp,njets_JetSinglePionHCALUp,njets_JetTimePtEtaUp;
+float mjj_JetAbsoluteFlavMapDown,mjj_JetAbsoluteMPFBiasDown,mjj_JetAbsoluteScaleDown,mjj_JetAbsoluteStatDown,mjj_JetEnDown,mjj_JetFlavorQCDDown,mjj_JetFragmentationDown,mjj_JetPileUpDataMCDown,mjj_JetPileUpPtBBDown,mjj_JetPileUpPtEC1Down,mjj_JetPileUpPtEC2Down,mjj_JetPileUpPtHFDown,mjj_JetPileUpPtRefDown,mjj_JetRelativeBalDown,mjj_JetRelativeFSRDown,mjj_JetRelativeJEREC1Down,mjj_JetRelativeJEREC2Down,mjj_JetRelativeJERHFDown,mjj_JetRelativePtBBDown,mjj_JetRelativePtEC1Down,mjj_JetRelativePtEC2Down,mjj_JetRelativePtHFDown,mjj_JetRelativeStatECDown,mjj_JetRelativeStatFSRDown,mjj_JetRelativeStatHFDown,mjj_JetSinglePionECALDown,mjj_JetSinglePionHCALDown,mjj_JetTimePtEtaDown;
+float mjj_JetAbsoluteFlavMapUp,mjj_JetAbsoluteMPFBiasUp,mjj_JetAbsoluteScaleUp,mjj_JetAbsoluteStatUp,mjj_JetEnUp,mjj_JetFlavorQCDUp,mjj_JetFragmentationUp,mjj_JetPileUpDataMCUp,mjj_JetPileUpPtBBUp,mjj_JetPileUpPtEC1Up,mjj_JetPileUpPtEC2Up,mjj_JetPileUpPtHFUp,mjj_JetPileUpPtRefUp,mjj_JetRelativeBalUp,mjj_JetRelativeFSRUp,mjj_JetRelativeJEREC1Up,mjj_JetRelativeJEREC2Up,mjj_JetRelativeJERHFUp,mjj_JetRelativePtBBUp,mjj_JetRelativePtEC1Up,mjj_JetRelativePtEC2Up,mjj_JetRelativePtHFUp,mjj_JetRelativeStatECUp,mjj_JetRelativeStatFSRUp,mjj_JetRelativeStatHFUp,mjj_JetSinglePionECALUp,mjj_JetSinglePionHCALUp,mjj_JetTimePtEtaUp;
+float matchE23Mu8_1, matchE23Mu8_2, matchMu23E12_1, matchMu23E12_2, passE23Mu8, passMu23E12,passEle25, passEle27, filterEle25, filterE23Mu8_1, filterE23Mu8_2, filterMu23E12_1, filterMu23E12_2, passE23Mu8DZ, passMu23E12DZ;
+float matchE23Mu8DZ_1, matchE23Mu8DZ_2, matchMu23E12DZ_1, matchMu23E12DZ_2, filterE23Mu8DZ_1, filterE23Mu8DZ_2, filterMu23E12DZ_1, filterMu23E12DZ_2;
+float passDoubleMu,matchDoubleMu_1,matchDoubleMu_2;
+
+
+float pt_1_, pt_2_, eta_1_, eta_2_, phi_1_, phi_2_, m_1_, m_2_, mvis_, metcov00_, metcov01_, metcov11_, weight_, met_, metphi_, fvalue_;
+
+void fillTreeMVA(TTree* BG_Tree, float PT1, float PT2, float ETA1, float ETA2, float PHI1, float PHI2, float M1, float M2, float MET, float METPHI, float METCOV00, float METCOV01, float METCOV11, float MVIS, float TARGET, float WEIGHT) {
+   pt_1_=PT1;
+   pt_2_=PT2;
+   eta_1_=ETA1;
+   eta_2_=ETA2;
+   pt_1_=PT1;
+   pt_2_=PT2;
+   phi_1_=PHI1;
+   phi_2_=PHI2;
+   m_1_=M1;
+   m_2_=M2;
+   met_=MET;
+   metphi_=METPHI;
+   mvis_=MVIS;
+   metcov00_=METCOV00;
+   metcov11_=METCOV11;
+   metcov01_=METCOV01;
+   weight_=WEIGHT;
+   fvalue_=TARGET;
+   BG_Tree->Fill();
+}
+
+
+
